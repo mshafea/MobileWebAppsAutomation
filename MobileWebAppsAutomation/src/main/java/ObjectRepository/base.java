@@ -15,7 +15,7 @@ public class base {
 
 	public static AndroidDriver<AndroidElement> Capabilities() throws MalformedURLException {
 		// TODO Auto-generated method stub
-		File f = new File("src");
+		File f = new File("apps");
 		File fs = new File(f,"ApiDemos-debug.apk");
 	DesiredCapabilities cap = new DesiredCapabilities();
 	cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Device");
